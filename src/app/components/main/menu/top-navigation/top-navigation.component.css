@@ -1,0 +1,28 @@
+.dropdown-divider {
+    margin: 0px;
+}
+
+@media(max-width: 991px) {
+    .dropdown-menu {
+        left: 15px;
+    }
+}
+
+@media(max-width: 350px) {
+    li.dropdown {
+        display: block!important;
+    }
+}
+
+.align-dropdown {
+    align-self: auto;
+}
+
+.btn-dropdown {
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+button.minimalize-styl-2 {
+    margin-left: 5px;
+}

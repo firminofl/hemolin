@@ -1,0 +1,18 @@
+{
+    "LOGOUT": "Salir",
+    "CHANGE_MENU": "Cambiar menu",
+    "HOME": "Inicio",
+    "USERNAME": "Usuario",
+    "PASSWORD": "Contraseña",
+    "FORGOT_PASSWORD": "¿Olvidó su contraseña?",
+    "DO_NOT_HAVE_AN_ACCOUNT": "¿No tiene una cuenta?",
+    "CREATE_ACCOUNT": "Crear cuenta",
+    "LOGIN": "Login",
+    "PORTUGUESE": "Portugués",
+    "ENGLISH": "Inglés",
+    "SPANISH": "Español",
+    "ABOUT": "Acerca",
+    "NEW_USER": "Nuevo usuario",
+    "LIGHT_INTENSITY": "Intensidad de la luz"
+
+}

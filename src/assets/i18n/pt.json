@@ -1,0 +1,17 @@
+{
+    "LOGOUT": "Sair",
+    "CHANGE_MENU": "Alterar menu",
+    "HOME": "Início",
+    "USERNAME": "Usuário",
+    "PASSWORD": "Senha",
+    "FORGOT_PASSWORD": "Esqueceu a senha?",
+    "DO_NOT_HAVE_AN_ACCOUNT": "Não possui uma conta?",
+    "CREATE_ACCOUNT": "Criar conta",
+    "LOGIN": "Login",
+    "PORTUGUESE": "Português",
+    "ENGLISH": "Inglês",
+    "SPANISH": "Espanhol",
+    "ABOUT": "Sobre",
+    "NEW_USER": "Novo usuário",
+    "LIGHT_INTENSITY": "Intensidade luminosa"
+}

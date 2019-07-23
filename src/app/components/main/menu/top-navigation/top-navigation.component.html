@@ -1,0 +1,66 @@
+<div class="row border-bottom white-bg">
+  <nav class="navbar navbar-expand-lg navbar-static-top" role="navigation">
+
+    <span class="navbar-brand" style="cursor: default">HEMOLIN</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fa fa-reorder"></i>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav mr-auto">
+        <li [ngClass]="{active: activeRoute('/home')}">
+          <a [routerLink]="['/home']" aria-expanded="false" role="button">{{ 'HOME' | translate}}</a>
+        </li>
+        <li [ngClass]="{active: activeRoute('/about')}">
+          <a [routerLink]="['/about']" aria-expanded="false" role="button">{{ 'ABOUT' | translate}}</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-top-links navbar-right">
+        <li class="dropdown align-dropdown">
+          <button class="dropdown-toggle minimalize-styl-2 btn btn-primary btn-dropdown" data-toggle="dropdown">
+            <i class="fa fa-language"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-tools">
+            <li>
+              <a (click)="setLanguage('pt')">
+                <img src="assets/img/flags/Brazil.png"> {{ 'PORTUGUESE' | translate }}
+              </a>
+            </li>
+            <li class="dropdown-divider"></li>
+            <li>
+              <a (click)="setLanguage('es')">
+                <img src="assets/img/flags/Spain.png"> {{ 'SPANISH' | translate }}
+              </a>
+            </li>
+            <li class="dropdown-divider"></li>
+            <li>
+              <a (click)="setLanguage('en')">
+                <img src="assets/img/flags/United-States.png"> {{ 'ENGLISH' | translate }}
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown" style="align-self: auto">
+          <button class="dropdown-toggle minimalize-styl-2 btn btn-primary" style="margin-top: 4px;"
+            data-toggle="dropdown">
+            <i class="fa fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a (click)="changeMenu()">
+                <i class="fa fa-home"></i> {{ 'CHANGE_MENU' | translate }}
+              </a>
+            </li>
+            <li class="dropdown-divider"></li>
+            <li>
+              <a translate (click)="logout()">
+                <i class="fa fa-sign-out"></i> {{ 'LOGOUT' | translate }}
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

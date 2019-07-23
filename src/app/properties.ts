@@ -1,0 +1,1 @@
+export const prefixStorageDash: string = 'dash_flux';

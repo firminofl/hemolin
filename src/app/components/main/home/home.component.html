@@ -1,0 +1,16 @@
+<div class="col-md-12">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h5>{{ 'LIGHT_INTENSITY' | translate }}</h5>
+      <div class="ibox-tools">
+      </div>
+    </div>
+    <div class="ibox-content">
+      <div class="row">
+        <div class="col-12">
+          <ngx-chartjs [data]="lineData" type="line" [options]="lineOptions"></ngx-chartjs>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
